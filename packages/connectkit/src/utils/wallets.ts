@@ -13,6 +13,7 @@ export const isMetaMask = () => {
   if (isFordefi()) return false;
   if (isTrust()) return false;
   if (isRainbow()) return false;
+  if (isXDEFI()) return false;
   */
   return window?.ethereum?.isMetaMask;
 };
